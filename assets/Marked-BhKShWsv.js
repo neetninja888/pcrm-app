@@ -1,0 +1,1 @@
+import{j as n}from"./react-DN5QDfMi.js";function u({text:r,marks:c}){if(!c.length)return n.jsx(n.Fragment,{children:r});const e=[];let i=0;return c.forEach(([s,h],l)=>{s>i&&e.push(r.slice(i,s)),e.push(n.jsx("mark",{children:r.slice(s,h)},l)),i=h}),i<r.length&&e.push(r.slice(i)),n.jsx(n.Fragment,{children:e})}export{u as M};
